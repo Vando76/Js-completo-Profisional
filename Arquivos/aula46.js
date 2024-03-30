@@ -66,7 +66,9 @@ btnRemoverCurso.addEventListener("click",(evt)=>{
         
         cs.remove()
 
-    } 
+    }else{
+        alert("Selecione um Curso") 
+    }
     
     
     
