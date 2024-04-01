@@ -20,18 +20,18 @@
 
 .verde{
     border-color: rgb(20,120,23) !important;
-    background-color: rgb(255,255,230) !important;
+    background-color: rgb(202, 241, 164) !important;
 
 }
 
 .azul{
     border-color: blue !important;
-    background-color: beige !important;
+    background-color: rgb(138, 187, 233) !important;
 }
 
 .vermelho{
-    border-color: red !important;
-    background-color: beige !important;
+    border-color: rgb(110, 6, 6) !important;
+    background-color: rgb(218, 155, 202) !important;
 }
 
 button{
