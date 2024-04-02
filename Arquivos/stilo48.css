@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.caixa{
+    border:  5px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+
+.verde{
+    border-color: rgb(20,120,23) !important;
+    background-color: rgb(202, 241, 164) !important;
+
+}
+
+.azul{
+    border-color: blue !important;
+    background-color: rgb(138, 187, 233) !important;
+}
+
+.vermelho{
+    border-color: rgb(110, 6, 6) !important;
+    background-color: rgb(218, 155, 202) !important;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#caixa_pesquisar input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+
+}
