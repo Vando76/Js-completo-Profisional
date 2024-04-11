@@ -6,16 +6,20 @@ const res=document.querySelector("#res")
 
 const op=[
     ()=>{
-        const val=[document.getElementById("valor 1").value,document.getElementById("valor 2").value]res.value=Number(val[0]+Number[1])
+        const val=[document.getElementById("valor1").value,document.getElementById("valor2").value]
+        res.value=Number(val[0])+Number(val[1])
     },
     ()=>{
-        const val=[document.getElementById("valor 1").value,document.getElementById("valor 2").value]res.value=Number(val[0]-Number[1])
+        const val=[document.getElementById("valor1").value,document.getElementById("valor2").value]
+        res.value=Number(val[0])-Number(val[1])
     },
     ()=>{
-        const val=[document.getElementById("valor 1").value,document.getElementById("valor 2").value]res.value=Number(val[0]*Number[1])
+        const val=[document.getElementById("valor1").value,document.getElementById("valor2").value]
+        res.value=Number(val[0])*Number(val[1])
     },
     ()=>{
-        const val=[document.getElementById("valor 1").value,document.getElementById("valor 2").value]res.value=Number(val[0]/Number[1])
+        const val=[document.getElementById("valor1").value,document.getElementById("valor2").value]
+        res.value=Number(val[0])/Number(val[1])
     }
 ]
 btn_soma.addEventListener("click",op[0])
