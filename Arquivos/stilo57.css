@@ -9,28 +9,48 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     
+    
 }
 
 .nome{
     display: flex;
     flex-direction: column;
     margin: 5px;
+    
+    
+
+}
+.sobrenome{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+
+}
+.idade{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
 
 }
 .nome input{
-    background-color: grey;
-    padding: 5px;
-    border-radius: 5px;
+    background-color: rgb(192, 190, 190);
+    padding: 10px;
+    width: 500px;
+    border-radius: 8px;
+    
+    
 }
 .sobrenome input{
-    background-color: grey;
-    padding: 5px;
-    border-radius: 5px;
+    background-color: rgb(192, 190, 190);
+    padding: 10px;
+    width: 500px;
+    border-radius: 8px;
 }
-.idade{
-    background-color: grey;
-    padding: 5px;
-    border-radius: 5px;
+.idade input{
+    background-color: rgb(192, 190, 190);
+    padding: 10px;
+    width: 500px;
+    border-radius: 8px;
 }
 
 
