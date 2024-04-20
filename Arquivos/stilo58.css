@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+    
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+    
+
+}
+.sobrenome{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+
+}
+.idade{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+
+}
+.nome input{
+    background-color: rgb(192, 190, 190);
+    padding: 10px;
+    width: 500px;
+    border-radius: 8px;
+    
+    
+}
+.sobrenome input{
+    background-color: rgb(192, 190, 190);
+    padding: 10px;
+    width: 500px;
+    border-radius: 8px;
+}
+.idade input{
+    background-color: rgb(192, 190, 190);
+    padding: 10px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+
+
+
+.caixa{
+    border:  5px solid #000;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px;
+    padding: 5px 15px;
+}
+
+
+
