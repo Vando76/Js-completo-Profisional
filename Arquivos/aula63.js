@@ -35,7 +35,7 @@ const gerenciarexibicaocarros=()=>{
         const div=document.createElement("div")
     div.setAttribute("class","carro")
     div.innerHTML=`Nome: ${c.nome}<br/>`
-    div.innerHTML=`Cor: ${c.cor}<br/>`
+    div.innerHTML+=`Cor: ${c.cor}<br/>`
     div.innerHTML+=`Portas: ${c.portas}<br/>`
     div.innerHTML+=`Blindagem: ${c.blindagem}<br/>`
     div.innerHTML+=`Munição: ${c.munição}<br/>`
