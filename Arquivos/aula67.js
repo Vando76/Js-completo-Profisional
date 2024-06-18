@@ -1,0 +1,3 @@
+const Nave=function(energia){
+    
+}
